@@ -1,1 +1,25 @@
 /* your code */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #3498db;
+  }
+
+  th, td {
+    border: 1px solid #3498db;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
